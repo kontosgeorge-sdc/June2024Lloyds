@@ -2,6 +2,42 @@
 <html>
 
     <head>
+
+        <!-- This is where CSS will live -->
+        <style>
+            /* the front part is the SELECTOR it tells the computer WHICH BITS to apple the css rule to */
+            /* START of block {     END of block } */
+            /* inside the block we have the CSS rules */
+            p {
+                /* these are 3 2-digit hexadecimal numbers */
+                background-color: #760808; /* each digit goes from 0-f (0-9, a-f) */
+                color: #b7d7bd;                     /* 'color' is the font color */
+            }
+
+            ul {
+                list-style-type: square;
+            }
+            img {
+                /* the padding-border-margin combination are called the 'box model' */
+                padding: 30px;
+                border: 15px solid #99ff99;
+                margin: 5px;
+            }
+
+            /* # means id in css  - used for ONE TAG ONLY*/
+            #horror { 
+                text-align: center;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+
+            /* . means class in css - used by more than one tag*/
+            .scary {
+                text-align: right;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        </style>
+
         <title>Page Title</title>
     </head>
    
@@ -9,19 +45,34 @@
 
         <!-- This is how to use headings -->
         <h1>This is a Heading 1</h1>
-        <p>HTML stand for HyperText Markup Language</p>
+        <p id="horror">HTML stand for HyperText Markup Language</p>
+
         <!-- href is an ATTRIBUTE of the a tag -->
         <a href="https://www.google.com/">some random site</a>
         <h2>This is a Heading 2</h2>
-        <p>This is yet another paragraph</p>    
+        <p class="scary">This is yet another paragraph</p>    
         <h2>This is a Heading 2</h2>
-        <p>This is where my paragraph goes</p>
-        <p>This is the last paragraph</p>
+        <p class="scary">This is where my paragraph goes</p>
+        <p class="scary">This is the last paragraph</p>
         <h1>This is a Heading 1</h1>
         <p>This is a paragraph.</p>
+        
+        <p>My elephant is:</p>       
+        <ul> <!-- Unordered List -->
+            <li>grey</li> <!-- List Item-->
+            <li>healthy</li>
+            <li>better than your elephant</li>
+        </ul>  
+
+        <!-- this is an image in MY files -->
         <img src="images\African_Bush_Elephant.jpg" alt="image not showing"  width="200" height="300">
+        
         <h2>This is a Heading 2</h2>
-        <p>This is yet another paragraph</p>    
+        <p>This is yet another paragraph</p>
+        
+        <!-- this is an image somewhere on the internet -->
+        <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2024/03/28095137/rhino-nepal-768x512.jpg" alt="it's getting really stuffy in here" width="300" height="200">
+        
         <h2>This is a Heading 2</h2>
         <p>This is yet another paragraph</p>    
   
