@@ -2,6 +2,7 @@
 
 body {
     background-color: #ffbbff;
+    margin: 2%;
 }
 
 /* the front part is the SELECTOR it tells the computer WHICH BITS to apple the css rule to */
@@ -43,11 +44,17 @@ img {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+div {
+    padding: 1%;
+}
+
 #part1 {
     background-color: #ffffbb;
+    float: left;
 }
 
 #part2 {
     background-color: #bbffff;
+    float:left;
 }
 
