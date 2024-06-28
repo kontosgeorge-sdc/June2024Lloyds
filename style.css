@@ -1,0 +1,53 @@
+/* This is where CSS will live */
+
+body {
+    background-color: #ffbbff;
+}
+
+/* the front part is the SELECTOR it tells the computer WHICH BITS to apple the css rule to */
+/* START of block {     END of block } */
+/* inside the block we have the CSS rules */
+p {
+    /* these are 3 2-digit hexadecimal numbers */
+    background-color: #760808; /* each digit goes from 0-f (0-9, a-f) */
+    color: #b7d7bd;                     /* 'color' is the font color */
+}
+
+h1 {
+    color: #ff0000;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+img {
+    /* the padding-border-margin combination are called the 'box model' */
+    padding: 30px;
+    border: 15px solid #99ff99;
+    margin: 5px;
+}
+
+/* . means class in css - used by more than one tag*/
+.scary {
+    background-color: #00ff00;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* # means id in css  - used for ONE TAG ONLY*/
+#horror {
+    background-color: #0000ff;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#part1 {
+    background-color: #ffffbb;
+}
+
+#part2 {
+    background-color: #bbffff;
+}
+
